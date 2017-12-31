@@ -34,7 +34,7 @@ Well first and foremost, you will need to flash the code onto the device. If you
 
 And that's it! You're ready to plug in the device. When you plug the device in, once the red flashing indicator has stopped the device has started executing the code. You should see the run box quickly popup, then see the command prompt change size and color. Once the command prompt has closed, the attack is complete and you can remove the device. In a few moments you should see the meterpreter session has opened in metasploit. Congrats!
 
-![alt text](/img/meterpreter_session.jpg "Meterpreter Session")
+![alt text](/public/img/meterpreter_session.jpg "Meterpreter Session")
 
 ### Conclusion
 While I may have written this article around using the Adafruit Pro Trinket, I would actually suggest using the regular Trinket instead. The Pro Trinket has both MicroUSB and FTDI for programming, so the bootloader stays active for quite some time (I think around 10 seconds) while it attempts to detect where the programming will occur. However, I had a Pro Trinket laying around, so that is what this is based on. From the documentation for the ProTrinketKeyboard library, it is written with the same syntax as the TrinketKeyboard library. So all you should need to do to convert this import the new library. I have not tested whether this conversion works or not, so don't hold me to it.
