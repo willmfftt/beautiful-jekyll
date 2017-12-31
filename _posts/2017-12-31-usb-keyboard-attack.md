@@ -1,6 +1,7 @@
 ---
 layout: post
 title: USB Keyboard Attack
+author: wmoffitt
 excerpt: Learn how to turn the Adafruit Pro Trinket into a fake USB keyboard that will spawn a reverse meterpreter shell onto a victims computer.
 tags: [exploitation, cyber-security, pro-trinket]
 ---

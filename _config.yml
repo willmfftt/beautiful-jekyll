@@ -1,10 +1,8 @@
-# Dependencies
-gems:                [jekyll-paginate]
-
 # Permalinks
 #
 # Use of `relative_permalinks` ensures post links from the index work properly.
 permalink:           pretty
+relative_permalinks: true
 
 # Setup
 title:               Lanyon
@@ -14,11 +12,23 @@ url:                 http://lanyon.getpoole.com
 baseurl:             ''
 paginate:            5
 
-# About/contact
-author:
-  name:              Mark Otto
-  url:               https://twitter.com/mdo
-  email:             markdotto@gmail.com
+authors:
+  wmoffitt:
+    name: William Moffitt
+    display_name: William
+    gravatar: 
+    email: wmoffitt@cybrtalk.com
+    web: https://willmfftt.github.io
+    twitter: 
+    github: willmfftt
+  noosh:
+    name: 
+    display_name: 
+    gravatar:
+    email: 
+    web: 
+    twitter: 
+    github: 
 
 # Custom vars
 version:             1.0.0
